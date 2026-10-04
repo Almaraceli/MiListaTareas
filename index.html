@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Lista de Tareas</title>
+
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <section class="tarjeta">
+            <div class="logo">
+                <img src="img/logo.png" alt="Lista de tareas">
+            </div>
+            <h1>Mi Lista de Tareas</h1>
+
+            <p class="descripcion">
+                Organiza tus actividades de manera sencilla.
+            </p>
+
+            <div class="formulario">
+                <input
+                    type="text"
+                    id="tareaInput"
+                    placeholder="Escribe una tarea..."
+                >
+
+                <button id="agregarBtn">
+                    Agregar
+                </button>
+            </div>
+
+            <ul id="listaTareas"></ul>
+
+            <div class="resumen">
+                <span id="contador">0 tareas</span>
+
+                <button id="limpiarBtn">
+                    Limpiar completadas
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.min.js"></script>
+
+</body>
+</html>
